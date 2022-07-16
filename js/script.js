@@ -4,6 +4,9 @@
     var bg_enviar = document.getElementById('bg_enviar')
     var form_enviar = document.getElementById('form_enviar')
     var button_close_enviar_pedido = document.getElementById('buttonX')
+    
+
+    
 
 
 function fechar(){
@@ -669,6 +672,35 @@ function enviar(){
    
 }
 
+function checkout_order(){
+    let div=document.querySelector('.container_meu_pedido')
+    let button_close_checkout_order = document.getElementById('buttonX_checkoutOrder')
+
+     let tmn="90%"
+    
+    
+    
+    if(div.style.height !== tmn){
+           
+            div.classList.remove('display_none')
+            div.classList.add('heght_width_meu_pedido')
+            button_close_checkout_order.classList.remove('display_none')
+            button_close_enviar_pedido.classList.add('display_none')
+            
+
+            
+           
+           
+           
+        
+                  
+           
+    }
+   
+
+}
+
+
 function button_close(){
 
         button_close_enviar_pedido.classList.add('display_none')
@@ -682,6 +714,36 @@ function button_close(){
         body.classList.remove('overflow-hidden')
 }
 
+function button_close_checkout_order(){
+
+    let div=document.querySelector('.container_meu_pedido')
+    let button_close_checkout_order = document.getElementById('buttonX_checkoutOrder')
+
+    
+    div.classList.add('heght_width_meu_pedido_close')
+    div.classList.remove('heght_width_meu_pedido')
+    button_close_enviar_pedido.classList.remove('display_none')
+    button_close_checkout_order.classList.add('display_none')
+   
+    
+    setTimeout( close_div_order, 450 )
+    function close_div_order() {
+        div.classList.remove('heght_width_meu_pedido_close')
+        
+        div.classList.add('display_none')
+
+        
+        
+        
+        
+        
+
+    }   
+
+    
+    
+
+}
 
 
 

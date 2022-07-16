@@ -56,8 +56,7 @@ function selecionarPreco(){
          _R$20.classList.add('fcp_unselected')
          _R$20.classList.remove('fcp')
 
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+         
      
    }
 
@@ -78,8 +77,7 @@ function selecionarPreco1(){
          _R$14.classList.remove('fcp')
          _R$20.classList.add('fcp_unselected')
          _R$20.classList.remove('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+        
      
    }
 
@@ -98,8 +96,7 @@ function selecionarPreco2(){
          _R$14.classList.add('fcp')
          _R$20.classList.add('fcp_unselected')
          _R$20.classList.remove('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+         
      
    }
 
@@ -118,8 +115,7 @@ function selecionarPreco3(){
          _R$14.classList.remove('fcp')
          _R$20.classList.remove('fcp_unselected')
          _R$20.classList.add('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+       
      
    }
 
@@ -131,8 +127,7 @@ function selecionarPreco4(){
      
          _R$3.classList.add('fcp')
          _R$3.classList.remove('fcp_unselected')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+         
      
    }else{
             _R$3.classList.remove('fcp')
@@ -185,8 +180,7 @@ function selecionarPreco5(){
          _R$14_trad.classList.remove('fcp')
          _R$20_trad.classList.add('fcp_unselected')
          _R$20_trad.classList.remove('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+         
      
    }
 
@@ -205,8 +199,7 @@ function selecionarPreco6(){
          _R$14_trad.classList.remove('fcp')
          _R$20_trad.classList.add('fcp_unselected')
          _R$20_trad.classList.remove('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+       
      
    }
 
@@ -225,8 +218,7 @@ function selecionarPreco7(){
          _R$14_trad.classList.add('fcp')
          _R$20_trad.classList.add('fcp_unselected')
          _R$20_trad.classList.remove('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+         
      
    }
 
@@ -245,8 +237,7 @@ function selecionarPreco8(){
          _R$14_trad.classList.remove('fcp')
          _R$20_trad.classList.remove('fcp_unselected')
          _R$20_trad.classList.add('fcp')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
+        
      
    }
 
@@ -258,9 +249,7 @@ function selecionarPreco9(){
      
          _R$3_trad.classList.add('fcp')
          _R$3_trad.classList.remove('fcp_unselected')
-         let mySound = new Audio('sounds/ploc.mp3')
-         mySound.play()
-     
+         
    }else{
             _R$3_trad.classList.remove('fcp')
             _R$3_trad.classList.add('fcp_unselected')
@@ -306,8 +295,7 @@ function selecionarPrecoHotDogTradicional(){
       
       hd01_desc.classList.add('fcp_color')
       hd01_desc.classList.remove('p_ingredientes_hot_dog_unselected')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
       
 
      
@@ -330,8 +318,7 @@ function selecionarPrecoHotDogGourmet(){
       
       hd02_desc.classList.add('fcp_color')
       hd02_desc.classList.remove('p_ingredientes_hot_dog_unselected')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
       
 
      
@@ -353,8 +340,7 @@ function selecionarPrecoHotDogPrensado(){
       
       hd03_desc.classList.add('fcp_color')
       hd03_desc.classList.remove('p_ingredientes_hot_dog_unselected')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
       
 
      
@@ -406,8 +392,7 @@ function selecionarPrecoSalgado01(){
      
       
       salg_preco01.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       salg_preco01.classList.remove('fcp_color')
@@ -421,8 +406,7 @@ function selecionarPrecoSalgado02(){
      
       
       salg_preco02.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       salg_preco02.classList.remove('fcp_color')
@@ -436,8 +420,7 @@ function selecionarPrecoSalgado03(){
      
       
       salg_preco03.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       salg_preco03.classList.remove('fcp_color')
@@ -451,8 +434,7 @@ function selecionarPrecoSalgado04(){
      
       
       salg_preco04.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       salg_preco04.classList.remove('fcp_color')
@@ -528,8 +510,7 @@ function selecionarPrecoBebida01(){
      
       
       Bebida01_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       Bebida01_preco.classList.remove('fcp_color')
@@ -543,8 +524,7 @@ function selecionarPrecoBebida02(){
      
       
       Bebida02_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida02_preco.classList.remove('fcp_color')
@@ -558,8 +538,7 @@ function selecionarPrecoBebida03(){
      
       
       Bebida03_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida03_preco.classList.remove('fcp_color')
@@ -573,8 +552,7 @@ function selecionarPrecoBebida04(){
      
       
       Bebida04_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida04_preco.classList.remove('fcp_color')
@@ -588,8 +566,7 @@ function selecionarPrecoBebida05(){
      
       
       Bebida05_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida05_preco.classList.remove('fcp_color')
@@ -603,8 +580,7 @@ function selecionarPrecoBebida06(){
      
       
       Bebida06_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida06_preco.classList.remove('fcp_color')
@@ -618,8 +594,7 @@ function selecionarPrecoBebida07(){
      
       
       Bebida07_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida07_preco.classList.remove('fcp_color')
@@ -633,8 +608,7 @@ function selecionarPrecoBebida08(){
      
       
       Bebida08_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+    
    
    }else{
       Bebida08_preco.classList.remove('fcp_color')
@@ -648,8 +622,7 @@ function selecionarPrecoBebida09(){
      
       
       Bebida09_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida09_preco.classList.remove('fcp_color')
@@ -663,8 +636,7 @@ function selecionarPrecoBebida10(){
      
       
       Bebida10_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       Bebida10_preco.classList.remove('fcp_color')
@@ -678,8 +650,7 @@ function selecionarPrecoBebida11(){
      
       
       Bebida11_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida11_preco.classList.remove('fcp_color')
@@ -693,8 +664,7 @@ function selecionarPrecoBebida12(){
      
       
       Bebida12_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       Bebida12_preco.classList.remove('fcp_color')
@@ -708,8 +678,7 @@ function selecionarPrecoBebida13(){
      
       
       Bebida13_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       Bebida13_preco.classList.remove('fcp_color')
@@ -723,8 +692,7 @@ function selecionarPrecoBebida14(){
      
       
       Bebida14_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       Bebida14_preco.classList.remove('fcp_color')
@@ -738,8 +706,7 @@ function selecionarPrecoBebida15(){
      
       
       Bebida15_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida15_preco.classList.remove('fcp_color')
@@ -753,8 +720,7 @@ function selecionarPrecoBebida16(){
      
       
       Bebida16_preco.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       Bebida16_preco.classList.remove('fcp_color')
@@ -785,8 +751,7 @@ function selecionarPrecoPolpa01(){
      
       
       polpa01P.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+     
    
    }else{
       polpa01P.classList.remove('fcp_color')
@@ -800,8 +765,7 @@ function selecionarPrecoPolpa02(){
      
       
       polpa02P.classList.add('fcp_color')
-      let mySound = new Audio('sounds/ploc.mp3')
-      mySound.play()
+      
    
    }else{
       polpa02P.classList.remove('fcp_color')
@@ -892,7 +856,7 @@ function unselected2(){
   
   
   }
-// variável para sons dos inputs
+
 
 
 
