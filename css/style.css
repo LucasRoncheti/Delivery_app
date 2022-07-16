@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+
+    --cor01 : rgb(25, 19, 39);
+    --cor02 : #f0f0f0;
+    --cor03:#6e0488;
+    --cor04:#f6f6f6;
+    --cor05:#b9b9b9;
+    --cor06:rgb(0, 185, 0);
+    --cor07:rgb(242, 0, 85);
+
+
+    --font01:'Montserrat', sans-serif;
+
+}
+
+
+body{
+    
+    background-color: var(--cor02);
+    ;
+    
+}
+
+
+.overflow-hidden{
+
+    overflow: hidden;
+}
+
+
+
+
+main{
+    width: 30%;
+   
+    margin: auto;
+    background-color: var(--cor02);
+
+}
+
+@media only screen and (max-width:760px ) {
+/*header*/
+header{
+width: 100%;
+height: 200px;
+position: relative;
+
+
+
+}
+
+ .header_background_image{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+   
+} 
+.logo_image{
+    width: 180px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 62px;
+
+}
+.bottom_bar_header{
+    width: 100%;
+    height: 8px;
+    margin-top: -5px;
+    background-color: var(--cor03);
+    
+
+}
+
+main{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    padding: 10% 0.5%;
+    
+    
+}
+
+.container_produtos{
+    width: 90%;
+    height: 50px;
+    margin: auto ;
+    margin-bottom: 25px;
+    background-color: var(--cor04);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px  rgba(0, 0, 0, 0.15);   
+}
+.container_produtos_open{
+    width: 90%;
+    height: auto;
+    margin: auto ;
+    margin-bottom: 25px;
+    background-color: var(--cor04);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 3px 8px  rgba(0, 0, 0, 0.15);   
+}
+
+
+
+
+
+
+
+/* Botão que faz a div aparecer e sumir  */
+.button_produto {
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor04);
+    border-style: solid;
+    border-width: 4px 0px 0px;
+    border-color: var(--cor03);
+    border-radius: 5px 5px 0px 0px;
+    text-align: left;
+    color: var(--cor03);
+    padding:10px 14px;
+    font-family:var(--font01);
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+/* seta do botão container produtos  */
+.arrow{
+    height: 20px;
+    
+}
+.arrow_up{
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+h3{
+    padding: 0px 14px;
+    color: var(--cor05);
+    font-weight: 200;
+}
+
+.container_checkbox{
+    padding: 6px 14px;
+}
+
+.flex_colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs_com_valores{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0px;
+    
+}
+.inputs_sem_valores{
+   
+    margin: 8px 0px;
+    
+}
+/* mergem do input das bebidas  */
+.miB{
+    margin: 30px 0px;
+}
+
+/* tamanho e cor das fontes dos inputs e preços  */
+.fcp{
+    font-size: 1.3em;
+    color: var(--cor03);
+
+}
+.fcpSalgados{
+    font-size:1.2em;
+    color: var(--cor03);
+
+}
+.fcpBebidas{
+    font-size:1.1em;
+    color: var(--cor03);
+
+}
+.fcp_unselected_bebidas{
+    
+    font-size: 1.1em;
+    color: var(--cor05);
+
+}
+.fcp_unselected{
+    
+    font-size: 1.3em;
+    color: var(--cor05);
+
+}
+
+
+.fcp_color{
+    color: var(--cor03);
+}
+.fcp_gray{
+    color: var(--cor05);
+}
+
+/*margin letf to the price of the salgados*/
+.mcs{
+    margin-left: 15px;
+}
+
+.p_ingredientes_hot_dog_unselected{
+
+    color: var(--cor05);
+}
+.p_ingredientes_hot_dog_selected{
+
+    color:var(--cor03);
+}
+
+.flavors_pulp{
+    margin-top: 20px;
+    text-align: center;
+}
+/* botão que cancela a seleção do intem  */
+.button_cancel{
+width: 100%;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: var(--font01);
+border: none;
+
+font-size: 1.1em;
+color: var(--cor02);
+background-color: var(--cor07);
+
+}
+}
+
+.btn_fechar_pedido{
+
+    width: 90%;
+    height: 50px;
+    background-color: var(--cor07);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 4px 0px 0px;
+    border-color: rgb(178, 14, 47);
+    font-size: 1.3em;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+
+    margin: auto;
+    
+    margin-top: 70px;
+    
+}
+
+.btn_enviar_pedido{
+
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor06);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 4px 0px 0px;
+    border-color: green;
+    font-size: 1em;
+    color: var(--cor02);
+
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    padding: 10px;
+    
+
+    margin: auto;
+    
+    margin-top: 10px;
+    
+}
+
+.dados_entrega{
+    margin: 5px;
+}
+
+.inputs_entrega{
+    width: 100%;
+    height: 30px;
+    margin: 5px auto;
+    border: none;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+footer a{
+    text-decoration: none;
+    color: rgb(72, 200, 255);
+}
+
+
+.link_footer{
+    font-size: 0.92em;
+}
+
+.background_enviar{
+
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor07);
+    opacity: 87%;
+    position: absolute;
+    transform: translateX(80%);
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: unset;
+    
+    
+    
+    
+}
+
+.container_enviar_pedido{
+    background-color: var(--cor02);
+    width:80%;
+    height: 90%;
+    padding: 4%;
+    left: 10%;
+    transform: translateX(80%);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.218);
+    overflow: auto;
+   
+    
+    
+}
+
+.container_meu_pedido{
+    width: 100%;
+    height: 100px;
+    overflow: scroll;
+    padding: 5px;
+    background-color: var(--cor04);
+    box-shadow: 0px 0px 6px rgba(122, 0, 106, 0.583);
+   
+
+}
+.textArea_meu_pedido{
+    width: 100%;
+    border-style: none;
+    overflow: scroll;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: var(--cor04);
+    
+   
+
+}
+
+.input_error{
+    color: red;
+}
+
+.blur{
+    filter: blur(3px);
+}
+
+.display_none{
+    display: none;
+}
+.display_block{
+    display: block;
+}
+
+.buttonX{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--cor04);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25px;
+    right: 25px;
+    color: var(--cor03);
+    font-size: 1.4em;
+    box-shadow: -3px 3px 8px rgba(0, 0, 0, 0.182);
+}
