@@ -657,7 +657,7 @@ function enviar(){
         
         
         else{
-             window.open('https://api.whatsapp.com/send?phone=5527998166112&text=*Nome*%3A'+nome+'%20*Entrega*%3A'+cidade+','+rua+','+referencia+'%20*_Pedido_*%3A'+pedido_final+'%20Forma%20de%20pagamento%3A'+forma_pagamento+''+observacoes+'')
+             window.open('https://api.whatsapp.com/send?phone=5527999725928&text=*Nome*%3A'+nome+'%20*Entrega*%3A'+cidade+','+rua+','+referencia+'%20*_Pedido_*%3A'+pedido_final+'%20Forma%20de%20pagamento%3A'+forma_pagamento+''+observacoes+'')
 
              let mySound = new Audio('sounds/send.mp3')
              mySound.play()

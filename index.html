@@ -26,7 +26,7 @@
         <!-- AÇAÍ CREMOSO -->
        
     <section  id="container01" class="container_produtos ">
-        <button onclick="show()" class="button_produto" id="acai">Açaí Cremoso <img src="images/arrow.svg" alt="" class=" arrow"></button>
+        <button onclick="show()" class="button_produto" id="acai"> <img class="icon_products" src="images/ice_cream.svg" alt=""> Açaí Cremoso <img src="images/arrow.svg" alt="" class=" arrow"></button>
         <div>
             <h3 >Escolha o tamanho</h3>
             <div class="container_checkbox">
@@ -35,7 +35,7 @@
                         <input type="radio" name="tamanho2" value="300ml" " id="300ml" >
                             <label class="fcp" for="300ml">300ml</label>
                     </div>
-                        <p id="preco300mlCremoso" class="fcp_unselected" >R$ 8,00</p>
+                        <p id="preco300mlCremoso" class="fcp_unselected" >R$ 10,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -43,7 +43,7 @@
                         <input  type="radio" name="tamanho2" value="500ml" id="500ml">
                             <label  class="fcp" for="500ml">500ml</label>
                     </div>
-                        <p id="preco500mlCremoso"  class="fcp_unselected" >R$ 10,00</p>
+                        <p id="preco500mlCremoso"  class="fcp_unselected" >R$ 12,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -51,7 +51,7 @@
                         <input  type="radio" name="tamanho2" value="700ml"  id="700ml">
                             <label  class="fcp" for="700ml">700ml</label>
                     </div>
-                        <p id="preco700mlCremoso" class="fcp_unselected" >R$ 14,00</p>
+                        <p id="preco700mlCremoso" class="fcp_unselected" >R$ 15,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -60,6 +60,15 @@
                             <label class="fcp" for="1L">1L</label>
                     </div>
                         <p id="preco1LCremoso" class="fcp_unselected" >R$ 20,00</p>
+                </div>
+
+                  <!-- BARCA  -->
+                  <div class="inputs_com_valores">
+                    <div >
+                        <input type="radio" name="tamanho2" value="Barca" id="barca">
+                            <label  class="fcp" for="barca">Barca</label>
+                    </div>
+                        <p id="preco_barca" class="fcp_unselected">R$ 25,00</p>
                 </div>
                     
             </div>
@@ -156,6 +165,30 @@
                 </div>
                     <p id="precoAcrescimoCremoso" class="fcp_unselected">R$ 3,00</p>
             </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="Doce de leite" " name="acrescimo" id="doce-de-leite">
+                        <label for="doce-de-leite">Doce de leite</label>
+                </div>
+                    <p id="precoAcrescimoCremoso_doce" class="fcp_unselected">R$ 3,00</p>
+            </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="Tortuguita" " name="acrescimo" id="tortuguita">
+                        <label for="tortuguita">Tortuguita</label>
+                </div>
+                    <p id="precoAcrescimoCremoso_tortuguita" class="fcp_unselected">R$ 2,00</p>
+            </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="Paçoca" " name="acrescimo" id="pacoca">
+                        <label for="pacoca">Paçoca</label>
+                </div>
+                    <p id="precoAcrescimoCremoso_pacoca" class="fcp_unselected">R$ 1,00</p>
+            </div>
         </div>
         <button  class="button_cancel" onclick="unselected()">Cancelar esse ítem</button>
 
@@ -163,7 +196,7 @@
 
         <!-- AÇAÍ TRADICIONAL -->
     <section id="container02" class="container_produtos">
-        <button onclick="show2()" class="button_produto" id="acai">Açaí Tradicional <img src="images/arrow.svg" alt="" class=" a2 arrow"></button>
+        <button onclick="show2()" class="button_produto" id="acai"><img class="icon_products" src="images/ice_cream.svg" alt=""> Açaí Tradicional <img src="images/arrow.svg" alt="" class=" a2 arrow"></button>
         <div>
             <h3>Escolha o tamanho</h3>
             <div class="container_checkbox">
@@ -172,7 +205,7 @@
                         <input type="radio" name="tamanho" value="300ml"  id="300ml_trad">
                             <label class="fcp" for="300ml_trad">300ml</label>
                     </div>
-                        <p id="preco300ml_trad" class="fcp_unselected">R$ 10,00</p>
+                        <p id="preco300ml_trad" class="fcp_unselected">R$ 12,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -180,7 +213,7 @@
                         <input type="radio" name="tamanho" value="500ml" id="500ml_trad">
                             <label class="fcp" for="500ml_trad">500ml</label>
                     </div>
-                        <p id="preco500ml_trad" class="fcp_unselected">R$ 12,00</p>
+                        <p id="preco500ml_trad" class="fcp_unselected">R$ 14,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -188,7 +221,7 @@
                         <input type="radio" name="tamanho" value="700ml"  id="700ml_trad">
                             <label class="fcp" for="700ml_trad">700ml</label>
                     </div>
-                        <p id="preco700ml_trad" class="fcp_unselected">R$ 16,00</p>
+                        <p id="preco700ml_trad" class="fcp_unselected">R$ 17,00</p>
                 </div>
 
                 <div class="inputs_com_valores">
@@ -197,6 +230,15 @@
                             <label  class="fcp" for="1L_trad">1L</label>
                     </div>
                         <p id="preco1L_trad" class="fcp_unselected">R$ 20,00</p>
+                </div>
+                
+                <!-- BARCA TRADICIONAl -->
+                <div class="inputs_com_valores">
+                    <div >
+                        <input type="radio" name="tamanho" value="Barca" id="barca_trad">
+                            <label  class="fcp" for="barca_trad">Barca</label>
+                    </div>
+                        <p id="preco_barca_trad" class="fcp_unselected">R$ 27,00</p>
                 </div>
             </div>
         </div>
@@ -291,6 +333,30 @@
                 </div>
                     <p id="precoAcrescimo_trad"  class="fcp_unselected">R$ 3,00</p>
             </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="Doce de leite" " name="acrescimo_trad" id="doce-de-leite_trad">
+                        <label for="doce-de-leite_trad">Doce de leite</label>
+                </div>
+                    <p id="precoAcrescimo_trad_Doce" class="fcp_unselected">R$ 3,00</p>
+            </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="Tortuguita" " name="acrescimo_trad" id="tortuguita_trad">
+                        <label for="tortuguita_trad">Tortuguita</label>
+                </div>
+                    <p id="precoAcrescimo_trad_tortuguita" class="fcp_unselected">R$ 2,00</p>
+            </div>
+
+            <div class="inputs_com_valores">
+                <div class="fcp">
+                    <input type="checkbox" value="paçoca" " name="acrescimo_trad" id="pacoca_trad">
+                        <label for="pacoca_trad">Paçoca</label>
+                </div>
+                    <p id="precoAcrescimo_trad_pacoca" class="fcp_unselected">R$ 1,00</p>
+            </div>
         </div>
         <button class="button_cancel" onclick="unselected2()">Cancelar esse ítem</button>
 
@@ -298,13 +364,13 @@
 
         <!--HOT DOG-->
     <section id="container03" class="container_produtos">
-        <button onclick="show3()" class="button_produto" id="acai">Hot Dog <img src="images/arrow.svg" alt="" class="a3 arrow"></button>
+        <button onclick="show3()" class="button_produto" id="acai"><img class="icon_products" src="images/burguer.svg" alt="">Hot Dog e Lanches<img src="images/arrow.svg" alt="" class="a3 arrow"></button>
         
         <div id="hot_dog"  class="container_checkbox ">
             <div  class="inputs_com_valores">
                 <div>
                     <div>
-                        <input type="checkbox" name="hotdog" value="Hot Dog Tradicional" id="hdt" >
+                        <input type="checkbox" name="hotdog-lanches" value="Hot Dog Tradicional" id="hdt" >
                         <label class="fcp"  for="hdt"> Tradicional</label>
                     </div>
                     
@@ -317,7 +383,7 @@
             <div class="inputs_com_valores">
                 <div>
                     <div>
-                        <input type="checkbox" name="hotdog" value="Hot Dog Gourmet Calabresa" " id="hdgc" >
+                        <input type="checkbox" name="hotdog-lanches" value="Hot Dog Gourmet Calabresa" " id="hdgc" >
                         <label class="fcp" for="hdgc"> Gourmet Calabresa</label>
                     </div>
                 </div>
@@ -325,23 +391,84 @@
             </div>
             <p id="hd02_desc" class="p_ingredientes_hot_dog_unselected">1 Salssicha, bacon, ovo de codorna, queijo e presunto, banana, calabresa, milho e ervilha, azeitona, alface e Uva passas Keka, maionese de bacon.</p><br>
 
+
+            <!--X MISTO QUENTE-->
             <div class="inputs_com_valores">
                 <div>
                     <div>
-                        <input type="checkbox" name="hotdog" value="Hot Dog Prensado" " id="hdp" >
-                        <label class="fcp" for="hdp"> Prensado</label>
+                        <input type="checkbox" name="hotdog-lanches" value="Misto Quente"  id="mistoquente" >
+                        <label class="fcp" for="mistoquente"> Misto Quente</label>
                     </div>
                 </div>
-                <p id="hdpp" class="fcp_unselected">R$ 16,00</p>
+                <p id="mistoquentePreco" class="fcp_unselected">R$ 6,00</p>
             </div>
-            <p id="hd03_desc" class="p_ingredientes_hot_dog_unselected">Pão especial, 1 salssicha, catupiry, bacon, recheio, frango, peito de peru, queijo.</p><br>
+                <p id="mistoquente_desc" class="p_ingredientes_hot_dog_unselected">Pão de forma, queijo mussarela e presunto.</p><br>
+
+            <!--HAMBUERGUER-->
+            <div class="inputs_com_valores">
+                <div>
+                    <div>
+                        <input type="checkbox" name="hotdog-lanches" value="Hamburguer" " id="hamburguer" >
+                        <label class="fcp" for="hamburguer"> Hamburguer</label>
+                    </div>
+                </div>
+                <p id="hamburguerPreco" class="fcp_unselected">R$ 10,00</p>
+            </div>
+                <p id="hamburguer_desc" class="p_ingredientes_hot_dog_unselected">Pão, bife de picanha, milho e ervilha, alface,tomate e maionese.</p><br>
+
+            <!--X BACON-->
+            <div class="inputs_com_valores">
+                <div>
+                    <div>
+                        <input type="checkbox" name="hotdog-lanches" value="X-Bacon"  id="xbacon" >
+                        <label class="fcp" for="xbacon"> X-Bacon</label>
+                    </div>
+                </div>
+                <p id="xbaconPreco" class="fcp_unselected">R$ 13,00</p>
+            </div>
+                <p id="xbacon_desc" class="p_ingredientes_hot_dog_unselected">Pão, bife de picanha,queijo,bacon, batata palha, milho e ervilha, alface,tomate e maionese.</p><br>
+
+            <!--X EGG BACON-->
+            <div class="inputs_com_valores">
+                <div>
+                    <div>
+                        <input type="checkbox" name="hotdog-lanches" value="X-egg Bacon"  id="xeggbacon" >
+                        <label class="fcp" for="xeggbacon"> X-Egg Bacon</label>
+                    </div>
+                </div>
+                <p id="xeggbaconPreco" class="fcp_unselected">R$ 14,00</p>
+            </div>
+                <p id="xeggbacon_desc" class="p_ingredientes_hot_dog_unselected">Pão, bife de picanha,ovo,queijo,bacon, batata palha, milho e ervilha, alface,tomate e salada de maionese.</p><br>
+
+            <!--X TUDO-->
+            <div class="inputs_com_valores">
+                <div>
+                    <div>
+                        <input type="checkbox" name="hotdog-lanches" value="X-Tudo"  id="xtudo" >
+                        <label class="fcp" for="xtudo"> X-Tudo</label>
+                    </div>
+                </div>
+                <p id="xtudoPreco" class="fcp_unselected">R$ 15,00</p>
+            </div>
+                <p id="xtudo_desc" class="p_ingredientes_hot_dog_unselected">Pão, bife de picanha,ovo,queijo,bacon, presunto, banana, batata palha, milho e ervilha, alface,tomate e salada de maionese.</p><br>
+            <!--X TUDO DUPLO-->
+            <div class="inputs_com_valores">
+                <div>
+                    <div>
+                        <input type="checkbox" name="hotdog-lanches" value="X-Tudo"  id="xtudoduplo" >
+                        <label class="fcp" for="xtudoduplo"> X-Tudo</label>
+                    </div>
+                </div>
+                <p id="xtudoduploPreco" class="fcp_unselected">R$ 21,00</p>
+            </div>
+                <p id="xtudoduplo_desc" class="p_ingredientes_hot_dog_unselected">Pão, 2 bife de picanha,2 ovos ,queijo bacon e presunto em dobro, banana, batata palha, milho e ervilha, alface,tomate e salada de maionese.</p><br>
         </div>
        
     </section>
 
         <!--SALGADOS-->
     <section id="container04" class="container_produtos">
-        <button onclick="show4()" class="button_produto" id="acai">Salgados <img src="images/arrow.svg" alt="" class="a4 arrow"></button>
+        <button onclick="show4()" class="button_produto" id="acai"><img class="icon_products" src="images/pastel.svg" alt="">Salgados <img src="images/arrow.svg" alt="" class="a4 arrow"></button>
         <div id="salgados" class="container_checkbox ">
             
 
@@ -371,13 +498,7 @@
                     <p id="salg_preco03" class="mcs fcp_unselected">R$ 5,00</p>
                 </div>
 
-                <div class="inputs_sem_valores ">
-                    <div>
-                        <input type="checkbox" name="salgados" value="Hamburguer" id="hamburguer" >
-                        <label class="fcpSalgados" for="hamburguer">Hamburguer</label>
-                    </div>
-                    <p id="salg_preco04" class="mcs fcp_unselected ">R$ 6,00</p>
-                </div>
+            
 
         </div>        
                 
@@ -387,7 +508,7 @@
          <!-- BEBIDAS -->
     
     <section id="container05" class="container_produtos">
-        <button onclick="show5()" class="button_produto" id="acai">Bebidas<img src="images/arrow.svg" alt="" class="a5 arrow"></button>
+        <button onclick="show5()" class="button_produto" id="acai"><img class="icon_products" src="images/drink.svg" alt="">Bebidas<img src="images/arrow.svg" alt="" class="a5 arrow"></button>
         <div id="bebidas" class="container_checkbox">
 
             <div class="inputs_com_valores miB">
@@ -525,7 +646,7 @@
         <!-- POLPA DE FRUTAS -->
 
     <section id="container06" class="container_produtos">
-            <button onclick="show6()" class="button_produto" id="acai">Polpas de Frutas<img src="images/arrow.svg" alt="" class="a6 arrow"></button>
+            <button onclick="show6()" class="button_produto" id="acai"><img class="icon_products" src="images/fruits.svg" alt="">Polpas de Frutas<img src="images/arrow.svg" alt="" class="a6 arrow"></button>
 
             <div id="polpa" class="container_checkbox">
                 <div class="inputs_com_valores">

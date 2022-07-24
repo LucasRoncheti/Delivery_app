@@ -17,9 +17,9 @@
        
        
        
-       if(div.style.height !== '930px'){
+       if(div.style.height !== '1050px'){
               
-              div.style.height = '930px';
+              div.style.height = '1050px';
               div.style.transitionDuration = animation
               arrow.style.transform = 'rotate(180deg)'
               arrow.style.transitionDuration = '0.5s'
@@ -51,7 +51,7 @@
      function show2(){
        let div=document.querySelector('#container02')
        let arrow = document.querySelector('.a2')//seta do botão 
-       let tmn="930px"
+       let tmn="1050px"
        
        
        
@@ -85,7 +85,7 @@
      function show3(){
        let div=document.querySelector('#container03')
        let arrow = document.querySelector('.a3')//seta do botão 
-       let tmn="454px"
+       let tmn="1050px"
        
        
        
@@ -118,7 +118,7 @@
      function show4(){
        let div=document.querySelector('#container04')
        let arrow = document.querySelector('.a4')//seta do botão 
-       let tmn="330px"
+       let tmn="280px"
        
        
        
@@ -152,7 +152,7 @@
      function show5(){
        let div=document.querySelector('#container05')
        let arrow = document.querySelector('.a5')//seta do botão 
-       let tmn="900px"
+       let tmn="930px"
        
        
        

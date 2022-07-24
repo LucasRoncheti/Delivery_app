@@ -90,7 +90,12 @@ main{
     
     
 }
+.icon_products{
+    width: 35px;
+    max-height: 40px;
+    filter: invert(19%) sepia(91%) saturate(6982%) hue-rotate(286deg) brightness(59%) contrast(105%);
 
+}
 .container_produtos{
     width: 90%;
     height: 50px;
